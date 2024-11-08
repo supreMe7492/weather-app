@@ -1,0 +1,41 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,css,html}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.14.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.14.0",
+    "eslint-webpack-plugin": "^4.2.0",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.12.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "prettier": "^3.3.3",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.13",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
