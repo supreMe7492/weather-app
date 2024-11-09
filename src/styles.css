@@ -2,3 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+nav {
+  grid-area: 1 / 1 / 2 /7;
+}
+main {
+  grid-area: 2/ 1 / 9 / 7;
+}
+aside {
+  grid-area: 1 / 7 / 9 / 10;
+}
+.location {
+  grid-area: 1/ 1 /2 / 9;
+}
+
+.details {
+  grid-area: 2 / 1 / 5 / 6;
+}
+.description {
+  grid-area: 5 / 1 / 6 / 9;
+}
+.sorrDet {
+  grid-area: 6 / 1 / 8 / 9;
+}
