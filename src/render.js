@@ -1,11 +1,15 @@
 import clearDay from '../icons/clear-day.png';
 import cloudy from '../icons/cloudy.png';
 import clearNight from '../icons/clear-night.png';
+import partlyCloudyDay from '../icons/partly-cloudy-day.png';
+import partlyCloudyNight from '../icons/partly-cloudy-night.png';
 
 const iconMap = {
   'clear-day': clearDay,
   cloudy: cloudy,
   'clear-night': clearNight,
+  'partly-cloudy-day': partlyCloudyDay,
+  'partly-cloudy-night': partlyCloudyNight,
 };
 let location = document.querySelector('.location');
 
